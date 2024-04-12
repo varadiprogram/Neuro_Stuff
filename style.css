@@ -1,0 +1,47 @@
+.margin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.row {
+    text-align: center;
+}
+
+.col-sm img {
+    border-style: solid;
+    border: solid white;
+    border-radius: 5px;
+}
+
+.col-sm img:hover {
+    transition: 500ms;
+    border-color: #b0b0b0;
+    border-radius: 15px;
+
+}
+
+.div2 {
+    border-style: solid;
+    background-color: #171717;
+    border-color: #171717;
+    padding: 10px;
+    text-align: center;
+}
+
+.div2 h3 {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header1 img {
+        height: 25dvb;
+        width: -150dvb;
+        text-align: center;
+    }
+
+    .margin {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
